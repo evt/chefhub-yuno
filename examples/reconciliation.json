@@ -1,0 +1,1694 @@
+{
+  "generated_at": "2026-06-07T18:49:18.218748Z",
+  "source_counts": {
+    "internal": 965,
+    "processor_a": 541,
+    "processor_b": 379
+  },
+  "matched_count": 859,
+  "discrepancy_counts": {
+    "amount_mismatch": 18,
+    "missing_in_database": 35,
+    "missing_in_settlement": 43,
+    "refund_not_applied": 8
+  },
+  "financial_exposure": {
+    "IDR": "7130.90",
+    "PHP": "9930.74",
+    "THB": "5314.22"
+  },
+  "discrepancies": [
+    {
+      "type": "missing_in_settlement",
+      "severity": "high",
+      "external_ref": "ord_000945",
+      "customer_id": "cust_0201",
+      "chef_id": "chef_164",
+      "currency": "THB",
+      "internal_amount": "493.29",
+      "internal_status": "completed",
+      "financial_impact": "493.29",
+      "sources": [
+        "internal"
+      ],
+      "occurred_at": "2026-05-28T02:45:37Z",
+      "detail": "internal order has no matching processor settlement"
+    },
+    {
+      "type": "missing_in_settlement",
+      "severity": "high",
+      "external_ref": "ord_000509",
+      "customer_id": "cust_0682",
+      "chef_id": "chef_002",
+      "currency": "THB",
+      "internal_amount": "488.90",
+      "internal_status": "completed",
+      "financial_impact": "488.90",
+      "sources": [
+        "internal"
+      ],
+      "occurred_at": "2026-05-27T21:47:28Z",
+      "detail": "internal order has no matching processor settlement"
+    },
+    {
+      "type": "refund_not_applied",
+      "severity": "high",
+      "external_ref": "ord_000110",
+      "customer_id": "cust_0420",
+      "chef_id": "chef_110",
+      "currency": "PHP",
+      "internal_amount": "474.87",
+      "processor_amount": "474.87",
+      "internal_status": "completed",
+      "processor_status": "refunded",
+      "financial_impact": "474.87",
+      "sources": [
+        "internal",
+        "processor_a"
+      ],
+      "occurred_at": "2026-05-27T11:50:17Z",
+      "detail": "processor refunded customer; internal record still shows completed"
+    },
+    {
+      "type": "missing_in_settlement",
+      "severity": "high",
+      "external_ref": "ord_000642",
+      "customer_id": "cust_0071",
+      "chef_id": "chef_283",
+      "currency": "IDR",
+      "internal_amount": "471.49",
+      "internal_status": "completed",
+      "financial_impact": "471.49",
+      "sources": [
+        "internal"
+      ],
+      "occurred_at": "2026-05-26T13:03:33Z",
+      "detail": "internal order has no matching processor settlement"
+    },
+    {
+      "type": "missing_in_settlement",
+      "severity": "high",
+      "external_ref": "ord_000367",
+      "customer_id": "cust_0272",
+      "chef_id": "chef_109",
+      "currency": "IDR",
+      "internal_amount": "460.38",
+      "internal_status": "completed",
+      "financial_impact": "460.38",
+      "sources": [
+        "internal"
+      ],
+      "occurred_at": "2026-05-28T11:40:54Z",
+      "detail": "internal order has no matching processor settlement"
+    },
+    {
+      "type": "refund_not_applied",
+      "severity": "high",
+      "external_ref": "ord_000795",
+      "customer_id": "cust_0263",
+      "chef_id": "chef_071",
+      "currency": "THB",
+      "internal_amount": "455.16",
+      "processor_amount": "455.16",
+      "internal_status": "completed",
+      "processor_status": "refunded",
+      "financial_impact": "455.16",
+      "sources": [
+        "internal",
+        "processor_b"
+      ],
+      "occurred_at": "2026-05-27T23:33:55Z",
+      "detail": "processor refunded customer; internal record still shows completed"
+    },
+    {
+      "type": "refund_not_applied",
+      "severity": "high",
+      "external_ref": "ord_000227",
+      "customer_id": "cust_1764",
+      "chef_id": "chef_166",
+      "currency": "PHP",
+      "internal_amount": "450.55",
+      "processor_amount": "450.55",
+      "internal_status": "completed",
+      "processor_status": "refunded",
+      "financial_impact": "450.55",
+      "sources": [
+        "internal",
+        "processor_a"
+      ],
+      "occurred_at": "2026-05-28T11:58:16Z",
+      "detail": "processor refunded customer; internal record still shows completed"
+    },
+    {
+      "type": "missing_in_settlement",
+      "severity": "high",
+      "external_ref": "ord_000377",
+      "customer_id": "cust_0048",
+      "chef_id": "chef_223",
+      "currency": "THB",
+      "internal_amount": "437.78",
+      "internal_status": "completed",
+      "financial_impact": "437.78",
+      "sources": [
+        "internal"
+      ],
+      "occurred_at": "2026-05-25T15:29:27Z",
+      "detail": "internal order has no matching processor settlement"
+    },
+    {
+      "type": "missing_in_settlement",
+      "severity": "high",
+      "external_ref": "ord_000914",
+      "customer_id": "cust_1657",
+      "chef_id": "chef_098",
+      "currency": "PHP",
+      "internal_amount": "435.49",
+      "internal_status": "completed",
+      "financial_impact": "435.49",
+      "sources": [
+        "internal"
+      ],
+      "occurred_at": "2026-05-31T01:31:49Z",
+      "detail": "internal order has no matching processor settlement"
+    },
+    {
+      "type": "missing_in_settlement",
+      "severity": "high",
+      "external_ref": "ord_000899",
+      "customer_id": "cust_1711",
+      "chef_id": "chef_121",
+      "currency": "IDR",
+      "internal_amount": "431.28",
+      "internal_status": "completed",
+      "financial_impact": "431.28",
+      "sources": [
+        "internal"
+      ],
+      "occurred_at": "2026-05-27T03:23:05Z",
+      "detail": "internal order has no matching processor settlement"
+    },
+    {
+      "type": "missing_in_database",
+      "severity": "high",
+      "external_ref": "ord_phantom_00951",
+      "currency": "IDR",
+      "processor_amount": "431.23",
+      "processor_status": "completed",
+      "financial_impact": "431.23",
+      "sources": [
+        "processor_b"
+      ],
+      "occurred_at": "2026-05-31T15:31:07Z",
+      "detail": "processor processor_b settled IDR 431.23 with no matching internal order (reference ord_phantom_00951)"
+    },
+    {
+      "type": "missing_in_settlement",
+      "severity": "high",
+      "external_ref": "ord_000704",
+      "customer_id": "cust_0297",
+      "chef_id": "chef_039",
+      "currency": "PHP",
+      "internal_amount": "428.74",
+      "internal_status": "completed",
+      "financial_impact": "428.74",
+      "sources": [
+        "internal"
+      ],
+      "occurred_at": "2026-05-27T00:55:14Z",
+      "detail": "internal order has no matching processor settlement"
+    },
+    {
+      "type": "missing_in_settlement",
+      "severity": "high",
+      "external_ref": "ord_000992",
+      "customer_id": "cust_0207",
+      "chef_id": "chef_110",
+      "currency": "IDR",
+      "internal_amount": "424.59",
+      "internal_status": "completed",
+      "financial_impact": "424.59",
+      "sources": [
+        "internal"
+      ],
+      "occurred_at": "2026-05-27T17:01:16Z",
+      "detail": "internal order has no matching processor settlement"
+    },
+    {
+      "type": "missing_in_settlement",
+      "severity": "high",
+      "external_ref": "ord_000589",
+      "customer_id": "cust_1055",
+      "chef_id": "chef_189",
+      "currency": "PHP",
+      "internal_amount": "414.60",
+      "internal_status": "completed",
+      "financial_impact": "414.60",
+      "sources": [
+        "internal"
+      ],
+      "occurred_at": "2026-05-31T17:42:17Z",
+      "detail": "internal order has no matching processor settlement"
+    },
+    {
+      "type": "missing_in_settlement",
+      "severity": "high",
+      "external_ref": "ord_000924",
+      "customer_id": "cust_1993",
+      "chef_id": "chef_002",
+      "currency": "IDR",
+      "internal_amount": "406.09",
+      "internal_status": "completed",
+      "financial_impact": "406.09",
+      "sources": [
+        "internal"
+      ],
+      "occurred_at": "2026-05-26T13:41:19Z",
+      "detail": "internal order has no matching processor settlement"
+    },
+    {
+      "type": "missing_in_settlement",
+      "severity": "high",
+      "external_ref": "ord_000466",
+      "customer_id": "cust_1580",
+      "chef_id": "chef_040",
+      "currency": "PHP",
+      "internal_amount": "402.16",
+      "internal_status": "completed",
+      "financial_impact": "402.16",
+      "sources": [
+        "internal"
+      ],
+      "occurred_at": "2026-05-26T04:45:54Z",
+      "detail": "internal order has no matching processor settlement"
+    },
+    {
+      "type": "missing_in_settlement",
+      "severity": "high",
+      "external_ref": "ord_000619",
+      "customer_id": "cust_1979",
+      "chef_id": "chef_166",
+      "currency": "PHP",
+      "internal_amount": "402.01",
+      "internal_status": "completed",
+      "financial_impact": "402.01",
+      "sources": [
+        "internal"
+      ],
+      "occurred_at": "2026-05-28T22:48:37Z",
+      "detail": "internal order has no matching processor settlement"
+    },
+    {
+      "type": "missing_in_database",
+      "severity": "high",
+      "external_ref": "ord_phantom_00900",
+      "currency": "PHP",
+      "processor_amount": "399.56",
+      "processor_status": "completed",
+      "financial_impact": "399.56",
+      "sources": [
+        "processor_b"
+      ],
+      "occurred_at": "2026-05-27T11:43:48Z",
+      "detail": "processor processor_b settled PHP 399.56 with no matching internal order (reference ord_phantom_00900)"
+    },
+    {
+      "type": "missing_in_database",
+      "severity": "high",
+      "external_ref": "ord_phantom_00246",
+      "currency": "THB",
+      "processor_amount": "395.13",
+      "processor_status": "completed",
+      "financial_impact": "395.13",
+      "sources": [
+        "processor_b"
+      ],
+      "occurred_at": "2026-05-30T23:25:45Z",
+      "detail": "processor processor_b settled THB 395.13 with no matching internal order (reference ord_phantom_00246)"
+    },
+    {
+      "type": "amount_mismatch",
+      "severity": "high",
+      "external_ref": "ord_000496",
+      "customer_id": "cust_1303",
+      "chef_id": "chef_256",
+      "currency": "PHP",
+      "internal_amount": "471.28",
+      "processor_amount": "865.05",
+      "internal_status": "completed",
+      "processor_status": "completed",
+      "financial_impact": "393.77",
+      "sources": [
+        "internal",
+        "processor_b"
+      ],
+      "occurred_at": "2026-05-30T22:54:20Z",
+      "detail": "amount differs by PHP 393.77 (internal PHP 471.28 vs processor_b PHP 865.05)"
+    },
+    {
+      "type": "missing_in_database",
+      "severity": "high",
+      "external_ref": "ord_phantom_00563",
+      "currency": "PHP",
+      "processor_amount": "387.20",
+      "processor_status": "completed",
+      "financial_impact": "387.20",
+      "sources": [
+        "processor_a"
+      ],
+      "occurred_at": "2026-05-31T12:10:16Z",
+      "detail": "processor processor_a settled PHP 387.20 with no matching internal order (reference ord_phantom_00563)"
+    },
+    {
+      "type": "missing_in_settlement",
+      "severity": "high",
+      "external_ref": "ord_000697",
+      "customer_id": "cust_1976",
+      "chef_id": "chef_067",
+      "currency": "PHP",
+      "internal_amount": "375.92",
+      "internal_status": "completed",
+      "financial_impact": "375.92",
+      "sources": [
+        "internal"
+      ],
+      "occurred_at": "2026-05-28T18:41:28Z",
+      "detail": "internal order has no matching processor settlement"
+    },
+    {
+      "type": "missing_in_database",
+      "severity": "high",
+      "external_ref": "ord_phantom_00615",
+      "currency": "IDR",
+      "processor_amount": "369.96",
+      "processor_status": "completed",
+      "financial_impact": "369.96",
+      "sources": [
+        "processor_b"
+      ],
+      "occurred_at": "2026-05-30T22:17:36Z",
+      "detail": "processor processor_b settled IDR 369.96 with no matching internal order (reference ord_phantom_00615)"
+    },
+    {
+      "type": "missing_in_database",
+      "severity": "high",
+      "external_ref": "ord_phantom_00735",
+      "currency": "THB",
+      "processor_amount": "366.69",
+      "processor_status": "completed",
+      "financial_impact": "366.69",
+      "sources": [
+        "processor_a"
+      ],
+      "occurred_at": "2026-05-29T12:06:37Z",
+      "detail": "processor processor_a settled THB 366.69 with no matching internal order (reference ord_phantom_00735)"
+    },
+    {
+      "type": "missing_in_database",
+      "severity": "high",
+      "external_ref": "ord_phantom_00766",
+      "currency": "PHP",
+      "processor_amount": "363.82",
+      "processor_status": "completed",
+      "financial_impact": "363.82",
+      "sources": [
+        "processor_b"
+      ],
+      "occurred_at": "2026-05-31T22:12:51Z",
+      "detail": "processor processor_b settled PHP 363.82 with no matching internal order (reference ord_phantom_00766)"
+    },
+    {
+      "type": "missing_in_database",
+      "severity": "high",
+      "external_ref": "ord_phantom_00411",
+      "currency": "THB",
+      "processor_amount": "362.71",
+      "processor_status": "completed",
+      "financial_impact": "362.71",
+      "sources": [
+        "processor_a"
+      ],
+      "occurred_at": "2026-05-29T06:54:44Z",
+      "detail": "processor processor_a settled THB 362.71 with no matching internal order (reference ord_phantom_00411)"
+    },
+    {
+      "type": "missing_in_database",
+      "severity": "high",
+      "external_ref": "ord_phantom_00763",
+      "currency": "PHP",
+      "processor_amount": "343.61",
+      "processor_status": "completed",
+      "financial_impact": "343.61",
+      "sources": [
+        "processor_a"
+      ],
+      "occurred_at": "2026-05-25T05:56:52Z",
+      "detail": "processor processor_a settled PHP 343.61 with no matching internal order (reference ord_phantom_00763)"
+    },
+    {
+      "type": "missing_in_settlement",
+      "severity": "high",
+      "external_ref": "ord_000001",
+      "customer_id": "cust_1301",
+      "chef_id": "chef_234",
+      "currency": "IDR",
+      "internal_amount": "342.21",
+      "internal_status": "completed",
+      "financial_impact": "342.21",
+      "sources": [
+        "internal"
+      ],
+      "occurred_at": "2026-05-25T18:36:48Z",
+      "detail": "internal order has no matching processor settlement"
+    },
+    {
+      "type": "missing_in_database",
+      "severity": "high",
+      "external_ref": "ord_phantom_00412",
+      "currency": "PHP",
+      "processor_amount": "336.99",
+      "processor_status": "completed",
+      "financial_impact": "336.99",
+      "sources": [
+        "processor_b"
+      ],
+      "occurred_at": "2026-05-25T18:39:16Z",
+      "detail": "processor processor_b settled PHP 336.99 with no matching internal order (reference ord_phantom_00412)"
+    },
+    {
+      "type": "missing_in_database",
+      "severity": "high",
+      "external_ref": "ord_phantom_00140",
+      "currency": "THB",
+      "processor_amount": "335.66",
+      "processor_status": "completed",
+      "financial_impact": "335.66",
+      "sources": [
+        "processor_b"
+      ],
+      "occurred_at": "2026-05-31T01:47:32Z",
+      "detail": "processor processor_b settled THB 335.66 with no matching internal order (reference ord_phantom_00140)"
+    },
+    {
+      "type": "amount_mismatch",
+      "severity": "high",
+      "external_ref": "ord_000012",
+      "customer_id": "cust_1700",
+      "chef_id": "chef_266",
+      "currency": "PHP",
+      "internal_amount": "187.81",
+      "processor_amount": "-145.18",
+      "internal_status": "completed",
+      "processor_status": "completed",
+      "financial_impact": "332.99",
+      "sources": [
+        "internal",
+        "processor_a"
+      ],
+      "occurred_at": "2026-05-26T17:27:07Z",
+      "detail": "amount differs by PHP 332.99 (internal PHP 187.81 vs processor_a PHP -145.18)"
+    },
+    {
+      "type": "missing_in_settlement",
+      "severity": "high",
+      "external_ref": "ord_000545",
+      "customer_id": "cust_0393",
+      "chef_id": "chef_134",
+      "currency": "IDR",
+      "internal_amount": "329.10",
+      "internal_status": "completed",
+      "financial_impact": "329.10",
+      "sources": [
+        "internal"
+      ],
+      "occurred_at": "2026-05-28T13:07:45Z",
+      "detail": "internal order has no matching processor settlement"
+    },
+    {
+      "type": "missing_in_database",
+      "severity": "high",
+      "external_ref": "ord_phantom_00981",
+      "currency": "PHP",
+      "processor_amount": "326.88",
+      "processor_status": "completed",
+      "financial_impact": "326.88",
+      "sources": [
+        "processor_b"
+      ],
+      "occurred_at": "2026-05-26T10:32:22Z",
+      "detail": "processor processor_b settled PHP 326.88 with no matching internal order (reference ord_phantom_00981)"
+    },
+    {
+      "type": "refund_not_applied",
+      "severity": "high",
+      "external_ref": "ord_000749",
+      "customer_id": "cust_1987",
+      "chef_id": "chef_100",
+      "currency": "IDR",
+      "internal_amount": "322.29",
+      "processor_amount": "322.29",
+      "internal_status": "completed",
+      "processor_status": "refunded",
+      "financial_impact": "322.29",
+      "sources": [
+        "internal",
+        "processor_a"
+      ],
+      "occurred_at": "2026-05-28T19:16:38Z",
+      "detail": "processor refunded customer; internal record still shows completed"
+    },
+    {
+      "type": "missing_in_database",
+      "severity": "high",
+      "external_ref": "ord_phantom_00805",
+      "currency": "THB",
+      "processor_amount": "309.07",
+      "processor_status": "completed",
+      "financial_impact": "309.07",
+      "sources": [
+        "processor_a"
+      ],
+      "occurred_at": "2026-05-28T22:10:15Z",
+      "detail": "processor processor_a settled THB 309.07 with no matching internal order (reference ord_phantom_00805)"
+    },
+    {
+      "type": "missing_in_database",
+      "severity": "high",
+      "external_ref": "ord_phantom_00220",
+      "currency": "PHP",
+      "processor_amount": "301.06",
+      "processor_status": "completed",
+      "financial_impact": "301.06",
+      "sources": [
+        "processor_b"
+      ],
+      "occurred_at": "2026-05-27T20:25:08Z",
+      "detail": "processor processor_b settled PHP 301.06 with no matching internal order (reference ord_phantom_00220)"
+    },
+    {
+      "type": "missing_in_settlement",
+      "severity": "high",
+      "external_ref": "ord_000718",
+      "customer_id": "cust_1733",
+      "chef_id": "chef_011",
+      "currency": "PHP",
+      "internal_amount": "287.75",
+      "internal_status": "completed",
+      "financial_impact": "287.75",
+      "sources": [
+        "internal"
+      ],
+      "occurred_at": "2026-05-30T20:01:37Z",
+      "detail": "internal order has no matching processor settlement"
+    },
+    {
+      "type": "missing_in_database",
+      "severity": "high",
+      "external_ref": "ord_phantom_00688",
+      "currency": "PHP",
+      "processor_amount": "286.61",
+      "processor_status": "completed",
+      "financial_impact": "286.61",
+      "sources": [
+        "processor_a"
+      ],
+      "occurred_at": "2026-05-29T02:55:38Z",
+      "detail": "processor processor_a settled PHP 286.61 with no matching internal order (reference ord_phantom_00688)"
+    },
+    {
+      "type": "missing_in_settlement",
+      "severity": "high",
+      "external_ref": "ord_000467",
+      "customer_id": "cust_1786",
+      "chef_id": "chef_258",
+      "currency": "IDR",
+      "internal_amount": "275.90",
+      "internal_status": "completed",
+      "financial_impact": "275.90",
+      "sources": [
+        "internal"
+      ],
+      "occurred_at": "2026-05-25T17:13:26Z",
+      "detail": "internal order has no matching processor settlement"
+    },
+    {
+      "type": "missing_in_settlement",
+      "severity": "high",
+      "external_ref": "ord_000760",
+      "customer_id": "cust_1163",
+      "chef_id": "chef_057",
+      "currency": "PHP",
+      "internal_amount": "270.50",
+      "internal_status": "completed",
+      "financial_impact": "270.50",
+      "sources": [
+        "internal"
+      ],
+      "occurred_at": "2026-05-28T21:44:34Z",
+      "detail": "internal order has no matching processor settlement"
+    },
+    {
+      "type": "missing_in_settlement",
+      "severity": "high",
+      "external_ref": "ord_000490",
+      "customer_id": "cust_1442",
+      "chef_id": "chef_024",
+      "currency": "IDR",
+      "internal_amount": "264.61",
+      "internal_status": "completed",
+      "financial_impact": "264.61",
+      "sources": [
+        "internal"
+      ],
+      "occurred_at": "2026-05-25T19:43:36Z",
+      "detail": "internal order has no matching processor settlement"
+    },
+    {
+      "type": "missing_in_settlement",
+      "severity": "high",
+      "external_ref": "ord_000434",
+      "customer_id": "cust_1698",
+      "chef_id": "chef_204",
+      "currency": "PHP",
+      "internal_amount": "264.41",
+      "internal_status": "completed",
+      "financial_impact": "264.41",
+      "sources": [
+        "internal"
+      ],
+      "occurred_at": "2026-05-27T19:46:13Z",
+      "detail": "internal order has no matching processor settlement"
+    },
+    {
+      "type": "missing_in_settlement",
+      "severity": "high",
+      "external_ref": "ord_000057",
+      "customer_id": "cust_0280",
+      "chef_id": "chef_076",
+      "currency": "IDR",
+      "internal_amount": "263.41",
+      "internal_status": "completed",
+      "financial_impact": "263.41",
+      "sources": [
+        "internal"
+      ],
+      "occurred_at": "2026-05-26T17:27:55Z",
+      "detail": "internal order has no matching processor settlement"
+    },
+    {
+      "type": "missing_in_settlement",
+      "severity": "high",
+      "external_ref": "ord_000798",
+      "customer_id": "cust_0962",
+      "chef_id": "chef_237",
+      "currency": "IDR",
+      "internal_amount": "260.64",
+      "internal_status": "completed",
+      "financial_impact": "260.64",
+      "sources": [
+        "internal"
+      ],
+      "occurred_at": "2026-05-28T07:05:14Z",
+      "detail": "internal order has no matching processor settlement"
+    },
+    {
+      "type": "missing_in_settlement",
+      "severity": "high",
+      "external_ref": "ord_000198",
+      "customer_id": "cust_1044",
+      "chef_id": "chef_007",
+      "currency": "PHP",
+      "internal_amount": "255.20",
+      "internal_status": "completed",
+      "financial_impact": "255.20",
+      "sources": [
+        "internal"
+      ],
+      "occurred_at": "2026-05-25T03:43:21Z",
+      "detail": "internal order has no matching processor settlement"
+    },
+    {
+      "type": "missing_in_settlement",
+      "severity": "high",
+      "external_ref": "ord_000083",
+      "customer_id": "cust_1665",
+      "chef_id": "chef_206",
+      "currency": "PHP",
+      "internal_amount": "254.12",
+      "internal_status": "completed",
+      "financial_impact": "254.12",
+      "sources": [
+        "internal"
+      ],
+      "occurred_at": "2026-05-31T13:39:36Z",
+      "detail": "internal order has no matching processor settlement"
+    },
+    {
+      "type": "missing_in_settlement",
+      "severity": "high",
+      "external_ref": "ord_000674",
+      "customer_id": "cust_0386",
+      "chef_id": "chef_000",
+      "currency": "THB",
+      "internal_amount": "243.58",
+      "internal_status": "completed",
+      "financial_impact": "243.58",
+      "sources": [
+        "internal"
+      ],
+      "occurred_at": "2026-05-31T09:28:03Z",
+      "detail": "internal order has no matching processor settlement"
+    },
+    {
+      "type": "missing_in_database",
+      "severity": "high",
+      "external_ref": "ord_phantom_00086",
+      "currency": "IDR",
+      "processor_amount": "241.45",
+      "processor_status": "completed",
+      "financial_impact": "241.45",
+      "sources": [
+        "processor_b"
+      ],
+      "occurred_at": "2026-05-29T17:45:39Z",
+      "detail": "processor processor_b settled IDR 241.45 with no matching internal order (reference ord_phantom_00086)"
+    },
+    {
+      "type": "missing_in_settlement",
+      "severity": "high",
+      "external_ref": "ord_000736",
+      "customer_id": "cust_0102",
+      "chef_id": "chef_081",
+      "currency": "THB",
+      "internal_amount": "239.73",
+      "internal_status": "completed",
+      "financial_impact": "239.73",
+      "sources": [
+        "internal"
+      ],
+      "occurred_at": "2026-05-28T06:22:51Z",
+      "detail": "internal order has no matching processor settlement"
+    },
+    {
+      "type": "missing_in_database",
+      "severity": "high",
+      "external_ref": "ord_phantom_00942",
+      "currency": "PHP",
+      "processor_amount": "236.48",
+      "processor_status": "completed",
+      "financial_impact": "236.48",
+      "sources": [
+        "processor_b"
+      ],
+      "occurred_at": "2026-05-30T14:54:45Z",
+      "detail": "processor processor_b settled PHP 236.48 with no matching internal order (reference ord_phantom_00942)"
+    },
+    {
+      "type": "amount_mismatch",
+      "severity": "high",
+      "external_ref": "ord_000493",
+      "customer_id": "cust_1509",
+      "chef_id": "chef_024",
+      "currency": "THB",
+      "internal_amount": "318.47",
+      "processor_amount": "520.90",
+      "internal_status": "completed",
+      "processor_status": "completed",
+      "financial_impact": "202.43",
+      "sources": [
+        "internal",
+        "processor_a"
+      ],
+      "occurred_at": "2026-05-27T05:05:58Z",
+      "detail": "amount differs by THB 202.43 (internal THB 318.47 vs processor_a THB 520.90)"
+    },
+    {
+      "type": "missing_in_settlement",
+      "severity": "high",
+      "external_ref": "ord_000379",
+      "customer_id": "cust_1169",
+      "chef_id": "chef_227",
+      "currency": "PHP",
+      "internal_amount": "199.62",
+      "internal_status": "completed",
+      "financial_impact": "199.62",
+      "sources": [
+        "internal"
+      ],
+      "occurred_at": "2026-05-25T00:05:59Z",
+      "detail": "internal order has no matching processor settlement"
+    },
+    {
+      "type": "missing_in_settlement",
+      "severity": "high",
+      "external_ref": "ord_000827",
+      "customer_id": "cust_0650",
+      "chef_id": "chef_097",
+      "currency": "THB",
+      "internal_amount": "198.45",
+      "internal_status": "completed",
+      "financial_impact": "198.45",
+      "sources": [
+        "internal"
+      ],
+      "occurred_at": "2026-05-26T08:45:11Z",
+      "detail": "internal order has no matching processor settlement"
+    },
+    {
+      "type": "missing_in_settlement",
+      "severity": "high",
+      "external_ref": "ord_000191",
+      "customer_id": "cust_0758",
+      "chef_id": "chef_071",
+      "currency": "IDR",
+      "internal_amount": "196.56",
+      "internal_status": "completed",
+      "financial_impact": "196.56",
+      "sources": [
+        "internal"
+      ],
+      "occurred_at": "2026-05-29T18:11:55Z",
+      "detail": "internal order has no matching processor settlement"
+    },
+    {
+      "type": "missing_in_settlement",
+      "severity": "high",
+      "external_ref": "ord_000634",
+      "customer_id": "cust_0646",
+      "chef_id": "chef_270",
+      "currency": "PHP",
+      "internal_amount": "192.12",
+      "internal_status": "completed",
+      "financial_impact": "192.12",
+      "sources": [
+        "internal"
+      ],
+      "occurred_at": "2026-05-29T09:16:25Z",
+      "detail": "internal order has no matching processor settlement"
+    },
+    {
+      "type": "missing_in_settlement",
+      "severity": "high",
+      "external_ref": "ord_000381",
+      "customer_id": "cust_1561",
+      "chef_id": "chef_195",
+      "currency": "IDR",
+      "internal_amount": "188.22",
+      "internal_status": "completed",
+      "financial_impact": "188.22",
+      "sources": [
+        "internal"
+      ],
+      "occurred_at": "2026-05-31T12:26:43Z",
+      "detail": "internal order has no matching processor settlement"
+    },
+    {
+      "type": "missing_in_database",
+      "severity": "high",
+      "external_ref": "ord_phantom_00135",
+      "currency": "IDR",
+      "processor_amount": "168.53",
+      "processor_status": "completed",
+      "financial_impact": "168.53",
+      "sources": [
+        "processor_a"
+      ],
+      "occurred_at": "2026-05-28T11:55:36Z",
+      "detail": "processor processor_a settled IDR 168.53 with no matching internal order (reference ord_phantom_00135)"
+    },
+    {
+      "type": "missing_in_database",
+      "severity": "high",
+      "external_ref": "ord_phantom_00074",
+      "currency": "IDR",
+      "processor_amount": "166.48",
+      "processor_status": "completed",
+      "financial_impact": "166.48",
+      "sources": [
+        "processor_b"
+      ],
+      "occurred_at": "2026-05-26T04:07:09Z",
+      "detail": "processor processor_b settled IDR 166.48 with no matching internal order (reference ord_phantom_00074)"
+    },
+    {
+      "type": "missing_in_database",
+      "severity": "high",
+      "external_ref": "ord_phantom_00029",
+      "currency": "PHP",
+      "processor_amount": "161.33",
+      "processor_status": "completed",
+      "financial_impact": "161.33",
+      "sources": [
+        "processor_b"
+      ],
+      "occurred_at": "2026-05-30T12:51:50Z",
+      "detail": "processor processor_b settled PHP 161.33 with no matching internal order (reference ord_phantom_00029)"
+    },
+    {
+      "type": "refund_not_applied",
+      "severity": "high",
+      "external_ref": "ord_000383",
+      "customer_id": "cust_0225",
+      "chef_id": "chef_147",
+      "currency": "IDR",
+      "internal_amount": "159.73",
+      "processor_amount": "159.73",
+      "internal_status": "completed",
+      "processor_status": "refunded",
+      "financial_impact": "159.73",
+      "sources": [
+        "internal",
+        "processor_a"
+      ],
+      "occurred_at": "2026-05-30T12:44:56Z",
+      "detail": "processor refunded customer; internal record still shows completed"
+    },
+    {
+      "type": "missing_in_settlement",
+      "severity": "high",
+      "external_ref": "ord_000323",
+      "customer_id": "cust_1895",
+      "chef_id": "chef_105",
+      "currency": "IDR",
+      "internal_amount": "157.42",
+      "internal_status": "completed",
+      "financial_impact": "157.42",
+      "sources": [
+        "internal"
+      ],
+      "occurred_at": "2026-05-29T08:42:41Z",
+      "detail": "internal order has no matching processor settlement"
+    },
+    {
+      "type": "missing_in_settlement",
+      "severity": "high",
+      "external_ref": "ord_000030",
+      "customer_id": "cust_0480",
+      "chef_id": "chef_248",
+      "currency": "IDR",
+      "internal_amount": "153.09",
+      "internal_status": "completed",
+      "financial_impact": "153.09",
+      "sources": [
+        "internal"
+      ],
+      "occurred_at": "2026-05-30T03:21:56Z",
+      "detail": "internal order has no matching processor settlement"
+    },
+    {
+      "type": "missing_in_database",
+      "severity": "high",
+      "external_ref": "ord_phantom_00940",
+      "currency": "THB",
+      "processor_amount": "144.89",
+      "processor_status": "completed",
+      "financial_impact": "144.89",
+      "sources": [
+        "processor_b"
+      ],
+      "occurred_at": "2026-05-30T13:57:15Z",
+      "detail": "processor processor_b settled THB 144.89 with no matching internal order (reference ord_phantom_00940)"
+    },
+    {
+      "type": "missing_in_settlement",
+      "severity": "high",
+      "external_ref": "ord_000275",
+      "customer_id": "cust_0123",
+      "chef_id": "chef_084",
+      "currency": "PHP",
+      "internal_amount": "141.40",
+      "internal_status": "completed",
+      "financial_impact": "141.40",
+      "sources": [
+        "internal"
+      ],
+      "occurred_at": "2026-05-27T10:52:20Z",
+      "detail": "internal order has no matching processor settlement"
+    },
+    {
+      "type": "missing_in_database",
+      "severity": "high",
+      "external_ref": "ord_phantom_00156",
+      "currency": "PHP",
+      "processor_amount": "140.74",
+      "processor_status": "completed",
+      "financial_impact": "140.74",
+      "sources": [
+        "processor_b"
+      ],
+      "occurred_at": "2026-05-31T15:30:21Z",
+      "detail": "processor processor_b settled PHP 140.74 with no matching internal order (reference ord_phantom_00156)"
+    },
+    {
+      "type": "refund_not_applied",
+      "severity": "high",
+      "external_ref": "ord_000533",
+      "customer_id": "cust_0805",
+      "chef_id": "chef_242",
+      "currency": "IDR",
+      "internal_amount": "135.08",
+      "processor_amount": "135.08",
+      "internal_status": "completed",
+      "processor_status": "refunded",
+      "financial_impact": "135.08",
+      "sources": [
+        "internal",
+        "processor_b"
+      ],
+      "occurred_at": "2026-05-28T20:45:27Z",
+      "detail": "processor refunded customer; internal record still shows completed"
+    },
+    {
+      "type": "missing_in_settlement",
+      "severity": "high",
+      "external_ref": "ord_000711",
+      "customer_id": "cust_0563",
+      "chef_id": "chef_014",
+      "currency": "PHP",
+      "internal_amount": "119.30",
+      "internal_status": "completed",
+      "financial_impact": "119.30",
+      "sources": [
+        "internal"
+      ],
+      "occurred_at": "2026-05-28T06:48:23Z",
+      "detail": "internal order has no matching processor settlement"
+    },
+    {
+      "type": "missing_in_settlement",
+      "severity": "high",
+      "external_ref": "ord_000788",
+      "customer_id": "cust_0042",
+      "chef_id": "chef_155",
+      "currency": "THB",
+      "internal_amount": "115.42",
+      "internal_status": "completed",
+      "financial_impact": "115.42",
+      "sources": [
+        "internal"
+      ],
+      "occurred_at": "2026-05-31T13:55:24Z",
+      "detail": "internal order has no matching processor settlement"
+    },
+    {
+      "type": "missing_in_database",
+      "severity": "high",
+      "external_ref": "ord_phantom_00941",
+      "currency": "PHP",
+      "processor_amount": "115.27",
+      "processor_status": "completed",
+      "financial_impact": "115.27",
+      "sources": [
+        "processor_b"
+      ],
+      "occurred_at": "2026-05-26T06:36:00Z",
+      "detail": "processor processor_b settled PHP 115.27 with no matching internal order (reference ord_phantom_00941)"
+    },
+    {
+      "type": "missing_in_settlement",
+      "severity": "high",
+      "external_ref": "ord_000375",
+      "customer_id": "cust_1292",
+      "chef_id": "chef_081",
+      "currency": "THB",
+      "internal_amount": "111.78",
+      "internal_status": "completed",
+      "financial_impact": "111.78",
+      "sources": [
+        "internal"
+      ],
+      "occurred_at": "2026-05-25T08:25:51Z",
+      "detail": "internal order has no matching processor settlement"
+    },
+    {
+      "type": "missing_in_database",
+      "severity": "high",
+      "external_ref": "ord_phantom_00126",
+      "currency": "PHP",
+      "processor_amount": "108.78",
+      "processor_status": "completed",
+      "financial_impact": "108.78",
+      "sources": [
+        "processor_a"
+      ],
+      "occurred_at": "2026-05-29T14:18:18Z",
+      "detail": "processor processor_a settled PHP 108.78 with no matching internal order (reference ord_phantom_00126)"
+    },
+    {
+      "type": "missing_in_database",
+      "severity": "high",
+      "external_ref": "ord_phantom_00413",
+      "currency": "THB",
+      "processor_amount": "108.47",
+      "processor_status": "completed",
+      "financial_impact": "108.47",
+      "sources": [
+        "processor_a"
+      ],
+      "occurred_at": "2026-05-31T13:15:51Z",
+      "detail": "processor processor_a settled THB 108.47 with no matching internal order (reference ord_phantom_00413)"
+    },
+    {
+      "type": "missing_in_database",
+      "severity": "high",
+      "external_ref": "ord_phantom_00436",
+      "currency": "PHP",
+      "processor_amount": "108.47",
+      "processor_status": "completed",
+      "financial_impact": "108.47",
+      "sources": [
+        "processor_b"
+      ],
+      "occurred_at": "2026-05-27T14:52:47Z",
+      "detail": "processor processor_b settled PHP 108.47 with no matching internal order (reference ord_phantom_00436)"
+    },
+    {
+      "type": "missing_in_database",
+      "severity": "medium",
+      "external_ref": "ord_phantom_00356",
+      "currency": "IDR",
+      "processor_amount": "89.46",
+      "processor_status": "completed",
+      "financial_impact": "89.46",
+      "sources": [
+        "processor_a"
+      ],
+      "occurred_at": "2026-05-28T19:38:49Z",
+      "detail": "processor processor_a settled IDR 89.46 with no matching internal order (reference ord_phantom_00356)"
+    },
+    {
+      "type": "missing_in_settlement",
+      "severity": "medium",
+      "external_ref": "ord_000131",
+      "customer_id": "cust_1170",
+      "chef_id": "chef_063",
+      "currency": "IDR",
+      "internal_amount": "82.75",
+      "internal_status": "completed",
+      "financial_impact": "82.75",
+      "sources": [
+        "internal"
+      ],
+      "occurred_at": "2026-05-25T17:38:22Z",
+      "detail": "internal order has no matching processor settlement"
+    },
+    {
+      "type": "refund_not_applied",
+      "severity": "medium",
+      "external_ref": "ord_000769",
+      "customer_id": "cust_1526",
+      "chef_id": "chef_238",
+      "currency": "THB",
+      "internal_amount": "76.00",
+      "processor_amount": "76.00",
+      "internal_status": "completed",
+      "processor_status": "refunded",
+      "financial_impact": "76.00",
+      "sources": [
+        "internal",
+        "processor_b"
+      ],
+      "occurred_at": "2026-05-25T14:30:23Z",
+      "detail": "processor refunded customer; internal record still shows completed"
+    },
+    {
+      "type": "missing_in_settlement",
+      "severity": "medium",
+      "external_ref": "ord_000542",
+      "customer_id": "cust_0309",
+      "chef_id": "chef_190",
+      "currency": "THB",
+      "internal_amount": "75.59",
+      "internal_status": "completed",
+      "financial_impact": "75.59",
+      "sources": [
+        "internal"
+      ],
+      "occurred_at": "2026-05-27T12:29:34Z",
+      "detail": "internal order has no matching processor settlement"
+    },
+    {
+      "type": "missing_in_settlement",
+      "severity": "medium",
+      "external_ref": "ord_000968",
+      "customer_id": "cust_0561",
+      "chef_id": "chef_173",
+      "currency": "THB",
+      "internal_amount": "73.25",
+      "internal_status": "completed",
+      "financial_impact": "73.25",
+      "sources": [
+        "internal"
+      ],
+      "occurred_at": "2026-05-31T09:44:21Z",
+      "detail": "internal order has no matching processor settlement"
+    },
+    {
+      "type": "refund_not_applied",
+      "severity": "medium",
+      "external_ref": "ord_000347",
+      "customer_id": "cust_1881",
+      "chef_id": "chef_216",
+      "currency": "PHP",
+      "internal_amount": "71.26",
+      "processor_amount": "71.26",
+      "internal_status": "completed",
+      "processor_status": "refunded",
+      "financial_impact": "71.26",
+      "sources": [
+        "internal",
+        "processor_a"
+      ],
+      "occurred_at": "2026-05-28T15:10:22Z",
+      "detail": "processor refunded customer; internal record still shows completed"
+    },
+    {
+      "type": "missing_in_database",
+      "severity": "medium",
+      "external_ref": "ord_phantom_00276",
+      "currency": "IDR",
+      "processor_amount": "68.11",
+      "processor_status": "completed",
+      "financial_impact": "68.11",
+      "sources": [
+        "processor_b"
+      ],
+      "occurred_at": "2026-05-27T01:35:13Z",
+      "detail": "processor processor_b settled IDR 68.11 with no matching internal order (reference ord_phantom_00276)"
+    },
+    {
+      "type": "missing_in_database",
+      "severity": "medium",
+      "external_ref": "ord_phantom_00065",
+      "currency": "IDR",
+      "processor_amount": "67.80",
+      "processor_status": "completed",
+      "financial_impact": "67.80",
+      "sources": [
+        "processor_b"
+      ],
+      "occurred_at": "2026-05-25T22:26:55Z",
+      "detail": "processor processor_b settled IDR 67.80 with no matching internal order (reference ord_phantom_00065)"
+    },
+    {
+      "type": "amount_mismatch",
+      "severity": "medium",
+      "external_ref": "ord_000964",
+      "customer_id": "cust_1572",
+      "chef_id": "chef_039",
+      "currency": "THB",
+      "internal_amount": "137.46",
+      "processor_amount": "202.80",
+      "internal_status": "completed",
+      "processor_status": "completed",
+      "financial_impact": "65.34",
+      "sources": [
+        "internal",
+        "processor_a"
+      ],
+      "occurred_at": "2026-05-26T16:54:33Z",
+      "detail": "amount differs by THB 65.34 (internal THB 137.46 vs processor_a THB 202.80)"
+    },
+    {
+      "type": "missing_in_database",
+      "severity": "medium",
+      "external_ref": "ord_phantom_00003",
+      "currency": "IDR",
+      "processor_amount": "58.35",
+      "processor_status": "completed",
+      "financial_impact": "58.35",
+      "sources": [
+        "processor_a"
+      ],
+      "occurred_at": "2026-05-25T07:45:52Z",
+      "detail": "processor processor_a settled IDR 58.35 with no matching internal order (reference ord_phantom_00003)"
+    },
+    {
+      "type": "missing_in_database",
+      "severity": "medium",
+      "external_ref": "ord_phantom_00182",
+      "currency": "PHP",
+      "processor_amount": "46.74",
+      "processor_status": "completed",
+      "financial_impact": "46.74",
+      "sources": [
+        "processor_b"
+      ],
+      "occurred_at": "2026-05-27T13:50:02Z",
+      "detail": "processor processor_b settled PHP 46.74 with no matching internal order (reference ord_phantom_00182)"
+    },
+    {
+      "type": "missing_in_database",
+      "severity": "medium",
+      "external_ref": "ord_phantom_00612",
+      "currency": "PHP",
+      "processor_amount": "45.76",
+      "processor_status": "completed",
+      "financial_impact": "45.76",
+      "sources": [
+        "processor_a"
+      ],
+      "occurred_at": "2026-05-30T14:35:00Z",
+      "detail": "processor processor_a settled PHP 45.76 with no matching internal order (reference ord_phantom_00612)"
+    },
+    {
+      "type": "missing_in_settlement",
+      "severity": "medium",
+      "external_ref": "ord_000944",
+      "customer_id": "cust_1400",
+      "chef_id": "chef_155",
+      "currency": "IDR",
+      "internal_amount": "44.59",
+      "internal_status": "completed",
+      "financial_impact": "44.59",
+      "sources": [
+        "internal"
+      ],
+      "occurred_at": "2026-05-31T17:17:16Z",
+      "detail": "internal order has no matching processor settlement"
+    },
+    {
+      "type": "missing_in_settlement",
+      "severity": "medium",
+      "external_ref": "ord_000576",
+      "customer_id": "cust_0623",
+      "chef_id": "chef_053",
+      "currency": "IDR",
+      "internal_amount": "41.90",
+      "internal_status": "completed",
+      "financial_impact": "41.90",
+      "sources": [
+        "internal"
+      ],
+      "occurred_at": "2026-05-29T20:31:22Z",
+      "detail": "internal order has no matching processor settlement"
+    },
+    {
+      "type": "missing_in_database",
+      "severity": "medium",
+      "external_ref": "ord_phantom_00440",
+      "currency": "IDR",
+      "processor_amount": "29.47",
+      "processor_status": "completed",
+      "financial_impact": "29.47",
+      "sources": [
+        "processor_b"
+      ],
+      "occurred_at": "2026-05-31T20:27:02Z",
+      "detail": "processor processor_b settled IDR 29.47 with no matching internal order (reference ord_phantom_00440)"
+    },
+    {
+      "type": "missing_in_database",
+      "severity": "medium",
+      "external_ref": "ord_phantom_00706",
+      "currency": "IDR",
+      "processor_amount": "25.05",
+      "processor_status": "completed",
+      "financial_impact": "25.05",
+      "sources": [
+        "processor_a"
+      ],
+      "occurred_at": "2026-05-31T01:21:06Z",
+      "detail": "processor processor_a settled IDR 25.05 with no matching internal order (reference ord_phantom_00706)"
+    },
+    {
+      "type": "amount_mismatch",
+      "severity": "medium",
+      "external_ref": "ord_000725",
+      "customer_id": "cust_0587",
+      "chef_id": "chef_022",
+      "currency": "PHP",
+      "internal_amount": "288.06",
+      "processor_amount": "266.73",
+      "internal_status": "completed",
+      "processor_status": "completed",
+      "financial_impact": "21.33",
+      "sources": [
+        "internal",
+        "processor_b"
+      ],
+      "occurred_at": "2026-05-27T14:24:21Z",
+      "detail": "amount differs by PHP 21.33 (internal PHP 288.06 vs processor_b PHP 266.73)"
+    },
+    {
+      "type": "amount_mismatch",
+      "severity": "medium",
+      "external_ref": "ord_000231",
+      "customer_id": "cust_1716",
+      "chef_id": "chef_088",
+      "currency": "THB",
+      "internal_amount": "453.25",
+      "processor_amount": "464.63",
+      "internal_status": "completed",
+      "processor_status": "completed",
+      "financial_impact": "11.38",
+      "sources": [
+        "internal",
+        "processor_a"
+      ],
+      "occurred_at": "2026-05-25T19:54:38Z",
+      "detail": "amount differs by THB 11.38 (internal THB 453.25 vs processor_a THB 464.63)"
+    },
+    {
+      "type": "missing_in_database",
+      "severity": "low",
+      "external_ref": "ord_phantom_00689",
+      "currency": "PHP",
+      "processor_amount": "7.26",
+      "processor_status": "completed",
+      "financial_impact": "7.26",
+      "sources": [
+        "processor_b"
+      ],
+      "occurred_at": "2026-05-30T01:55:19Z",
+      "detail": "processor processor_b settled PHP 7.26 with no matching internal order (reference ord_phantom_00689)"
+    },
+    {
+      "type": "amount_mismatch",
+      "severity": "low",
+      "external_ref": "ord_000433",
+      "customer_id": "cust_0222",
+      "chef_id": "chef_285",
+      "currency": "PHP",
+      "internal_amount": "285.44",
+      "processor_amount": "281.11",
+      "internal_status": "completed",
+      "processor_status": "completed",
+      "financial_impact": "4.33",
+      "sources": [
+        "internal",
+        "processor_a"
+      ],
+      "occurred_at": "2026-05-29T01:40:56Z",
+      "detail": "amount differs by PHP 4.33 (internal PHP 285.44 vs processor_a PHP 281.11)"
+    },
+    {
+      "type": "amount_mismatch",
+      "severity": "low",
+      "external_ref": "ord_000049",
+      "customer_id": "cust_1983",
+      "chef_id": "chef_110",
+      "currency": "PHP",
+      "internal_amount": "468.17",
+      "processor_amount": "463.89",
+      "internal_status": "completed",
+      "processor_status": "completed",
+      "financial_impact": "4.28",
+      "sources": [
+        "internal",
+        "processor_a"
+      ],
+      "occurred_at": "2026-05-30T02:10:21Z",
+      "detail": "amount differs by PHP 4.28 (internal PHP 468.17 vs processor_a PHP 463.89)"
+    },
+    {
+      "type": "amount_mismatch",
+      "severity": "low",
+      "external_ref": "ord_000392",
+      "customer_id": "cust_1444",
+      "chef_id": "chef_132",
+      "currency": "PHP",
+      "internal_amount": "266.30",
+      "processor_amount": "270.38",
+      "internal_status": "completed",
+      "processor_status": "completed",
+      "financial_impact": "4.08",
+      "sources": [
+        "internal",
+        "processor_b"
+      ],
+      "occurred_at": "2026-05-25T04:52:22Z",
+      "detail": "amount differs by PHP 4.08 (internal PHP 266.30 vs processor_b PHP 270.38)"
+    },
+    {
+      "type": "amount_mismatch",
+      "severity": "low",
+      "external_ref": "ord_000883",
+      "customer_id": "cust_1441",
+      "chef_id": "chef_077",
+      "currency": "IDR",
+      "internal_amount": "245.22",
+      "processor_amount": "241.54",
+      "internal_status": "completed",
+      "processor_status": "completed",
+      "financial_impact": "3.68",
+      "sources": [
+        "internal",
+        "processor_a"
+      ],
+      "occurred_at": "2026-05-27T19:36:09Z",
+      "detail": "amount differs by IDR 3.68 (internal IDR 245.22 vs processor_a IDR 241.54)"
+    },
+    {
+      "type": "amount_mismatch",
+      "severity": "low",
+      "external_ref": "ord_000380",
+      "customer_id": "cust_0463",
+      "chef_id": "chef_221",
+      "currency": "THB",
+      "internal_amount": "431.48",
+      "processor_amount": "427.96",
+      "internal_status": "completed",
+      "processor_status": "completed",
+      "financial_impact": "3.52",
+      "sources": [
+        "internal",
+        "processor_b"
+      ],
+      "occurred_at": "2026-05-26T09:31:21Z",
+      "detail": "amount differs by THB 3.52 (internal THB 431.48 vs processor_b THB 427.96)"
+    },
+    {
+      "type": "amount_mismatch",
+      "severity": "low",
+      "external_ref": "ord_000179",
+      "customer_id": "cust_0870",
+      "chef_id": "chef_087",
+      "currency": "PHP",
+      "internal_amount": "183.78",
+      "processor_amount": "181.36",
+      "internal_status": "completed",
+      "processor_status": "completed",
+      "financial_impact": "2.42",
+      "sources": [
+        "internal",
+        "processor_a"
+      ],
+      "occurred_at": "2026-05-28T00:53:48Z",
+      "detail": "amount differs by PHP 2.42 (internal PHP 183.78 vs processor_a PHP 181.36)"
+    },
+    {
+      "type": "amount_mismatch",
+      "severity": "low",
+      "external_ref": "ord_000409",
+      "customer_id": "cust_0851",
+      "chef_id": "chef_067",
+      "currency": "PHP",
+      "internal_amount": "173.92",
+      "processor_amount": "176.11",
+      "internal_status": "completed",
+      "processor_status": "completed",
+      "financial_impact": "2.19",
+      "sources": [
+        "internal",
+        "processor_a"
+      ],
+      "occurred_at": "2026-05-26T03:57:52Z",
+      "detail": "amount differs by PHP 2.19 (internal PHP 173.92 vs processor_a PHP 176.11)"
+    },
+    {
+      "type": "amount_mismatch",
+      "severity": "low",
+      "external_ref": "ord_000307",
+      "customer_id": "cust_0895",
+      "chef_id": "chef_131",
+      "currency": "PHP",
+      "internal_amount": "117.44",
+      "processor_amount": "115.37",
+      "internal_status": "completed",
+      "processor_status": "completed",
+      "financial_impact": "2.07",
+      "sources": [
+        "internal",
+        "processor_a"
+      ],
+      "occurred_at": "2026-05-30T10:35:06Z",
+      "detail": "amount differs by PHP 2.07 (internal PHP 117.44 vs processor_a PHP 115.37)"
+    },
+    {
+      "type": "amount_mismatch",
+      "severity": "low",
+      "external_ref": "ord_000080",
+      "customer_id": "cust_0667",
+      "chef_id": "chef_170",
+      "currency": "PHP",
+      "internal_amount": "125.69",
+      "processor_amount": "127.62",
+      "internal_status": "completed",
+      "processor_status": "completed",
+      "financial_impact": "1.93",
+      "sources": [
+        "internal",
+        "processor_b"
+      ],
+      "occurred_at": "2026-05-29T05:40:36Z",
+      "detail": "amount differs by PHP 1.93 (internal PHP 125.69 vs processor_b PHP 127.62)"
+    },
+    {
+      "type": "amount_mismatch",
+      "severity": "low",
+      "external_ref": "ord_000461",
+      "customer_id": "cust_1074",
+      "chef_id": "chef_255",
+      "currency": "PHP",
+      "internal_amount": "195.83",
+      "processor_amount": "194.03",
+      "internal_status": "completed",
+      "processor_status": "completed",
+      "financial_impact": "1.80",
+      "sources": [
+        "internal",
+        "processor_a"
+      ],
+      "occurred_at": "2026-05-26T20:42:55Z",
+      "detail": "amount differs by PHP 1.80 (internal PHP 195.83 vs processor_a PHP 194.03)"
+    },
+    {
+      "type": "amount_mismatch",
+      "severity": "low",
+      "external_ref": "ord_000653",
+      "customer_id": "cust_0229",
+      "chef_id": "chef_043",
+      "currency": "PHP",
+      "internal_amount": "19.68",
+      "processor_amount": "21.27",
+      "internal_status": "completed",
+      "processor_status": "completed",
+      "financial_impact": "1.59",
+      "sources": [
+        "internal",
+        "processor_a"
+      ],
+      "occurred_at": "2026-05-27T12:42:03Z",
+      "detail": "amount differs by PHP 1.59 (internal PHP 19.68 vs processor_a PHP 21.27)"
+    },
+    {
+      "type": "amount_mismatch",
+      "severity": "low",
+      "external_ref": "ord_000751",
+      "customer_id": "cust_1881",
+      "chef_id": "chef_275",
+      "currency": "PHP",
+      "internal_amount": "475.51",
+      "processor_amount": "474.13",
+      "internal_status": "completed",
+      "processor_status": "completed",
+      "financial_impact": "1.38",
+      "sources": [
+        "internal",
+        "processor_b"
+      ],
+      "occurred_at": "2026-05-31T10:53:08Z",
+      "detail": "amount differs by PHP 1.38 (internal PHP 475.51 vs processor_b PHP 474.13)"
+    }
+  ]
+}
