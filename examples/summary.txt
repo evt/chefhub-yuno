@@ -1,0 +1,38 @@
+=== ChefHub Settlement Reconciliation ===
+generated at: 2026-06-07T18:52:45Z
+
+-- Sources --
+  internal     965 records
+  processor_a  541 records
+  processor_b  379 records
+
+matched cleanly: 859 internal orders
+discrepancies:   104
+
+-- Discrepancies by type --
+  amount_mismatch        18
+  missing_in_database    35
+  missing_in_settlement  43
+  refund_not_applied     8
+
+-- Financial exposure --
+  IDR  7130.90
+  PHP  9930.74
+  THB  5314.22
+
+-- Top 10 by financial impact --
+  severity  impact      type                   ref         detail
+  HIGH      THB 493.29  missing_in_settlement  ord_000945  internal order has no matching processor settlement
+  HIGH      THB 488.90  missing_in_settlement  ord_000509  internal order has no matching processor settlement
+  HIGH      PHP 474.87  refund_not_applied     ord_000110  processor refunded customer; internal record still shows co…
+  HIGH      IDR 471.49  missing_in_settlement  ord_000642  internal order has no matching processor settlement
+  HIGH      IDR 460.38  missing_in_settlement  ord_000367  internal order has no matching processor settlement
+  HIGH      THB 455.16  refund_not_applied     ord_000795  processor refunded customer; internal record still shows co…
+  HIGH      PHP 450.55  refund_not_applied     ord_000227  processor refunded customer; internal record still shows co…
+  HIGH      THB 437.78  missing_in_settlement  ord_000377  internal order has no matching processor settlement
+  HIGH      PHP 435.49  missing_in_settlement  ord_000914  internal order has no matching processor settlement
+  HIGH      IDR 431.28  missing_in_settlement  ord_000899  internal order has no matching processor settlement
+
+reports written:
+  out/reconciliation.json
+  out/discrepancies.csv

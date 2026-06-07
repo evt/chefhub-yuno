@@ -1,0 +1,105 @@
+type,severity,external_ref,customer_id,chef_id,currency,internal_amount,processor_amount,internal_status,processor_status,financial_impact,sources,occurred_at,detail
+missing_in_settlement,high,ord_000945,cust_0201,chef_164,THB,493.29,0.00,completed,,493.29,internal,2026-05-28T02:45:37Z,internal order has no matching processor settlement
+missing_in_settlement,high,ord_000509,cust_0682,chef_002,THB,488.90,0.00,completed,,488.90,internal,2026-05-27T21:47:28Z,internal order has no matching processor settlement
+refund_not_applied,high,ord_000110,cust_0420,chef_110,PHP,474.87,474.87,completed,refunded,474.87,internal+processor_a,2026-05-27T11:50:17Z,processor refunded customer; internal record still shows completed
+missing_in_settlement,high,ord_000642,cust_0071,chef_283,IDR,471.49,0.00,completed,,471.49,internal,2026-05-26T13:03:33Z,internal order has no matching processor settlement
+missing_in_settlement,high,ord_000367,cust_0272,chef_109,IDR,460.38,0.00,completed,,460.38,internal,2026-05-28T11:40:54Z,internal order has no matching processor settlement
+refund_not_applied,high,ord_000795,cust_0263,chef_071,THB,455.16,455.16,completed,refunded,455.16,internal+processor_b,2026-05-27T23:33:55Z,processor refunded customer; internal record still shows completed
+refund_not_applied,high,ord_000227,cust_1764,chef_166,PHP,450.55,450.55,completed,refunded,450.55,internal+processor_a,2026-05-28T11:58:16Z,processor refunded customer; internal record still shows completed
+missing_in_settlement,high,ord_000377,cust_0048,chef_223,THB,437.78,0.00,completed,,437.78,internal,2026-05-25T15:29:27Z,internal order has no matching processor settlement
+missing_in_settlement,high,ord_000914,cust_1657,chef_098,PHP,435.49,0.00,completed,,435.49,internal,2026-05-31T01:31:49Z,internal order has no matching processor settlement
+missing_in_settlement,high,ord_000899,cust_1711,chef_121,IDR,431.28,0.00,completed,,431.28,internal,2026-05-27T03:23:05Z,internal order has no matching processor settlement
+missing_in_database,high,ord_phantom_00951,,,IDR,0.00,431.23,,completed,431.23,processor_b,2026-05-31T15:31:07Z,processor processor_b settled IDR 431.23 with no matching internal order (reference ord_phantom_00951)
+missing_in_settlement,high,ord_000704,cust_0297,chef_039,PHP,428.74,0.00,completed,,428.74,internal,2026-05-27T00:55:14Z,internal order has no matching processor settlement
+missing_in_settlement,high,ord_000992,cust_0207,chef_110,IDR,424.59,0.00,completed,,424.59,internal,2026-05-27T17:01:16Z,internal order has no matching processor settlement
+missing_in_settlement,high,ord_000589,cust_1055,chef_189,PHP,414.60,0.00,completed,,414.60,internal,2026-05-31T17:42:17Z,internal order has no matching processor settlement
+missing_in_settlement,high,ord_000924,cust_1993,chef_002,IDR,406.09,0.00,completed,,406.09,internal,2026-05-26T13:41:19Z,internal order has no matching processor settlement
+missing_in_settlement,high,ord_000466,cust_1580,chef_040,PHP,402.16,0.00,completed,,402.16,internal,2026-05-26T04:45:54Z,internal order has no matching processor settlement
+missing_in_settlement,high,ord_000619,cust_1979,chef_166,PHP,402.01,0.00,completed,,402.01,internal,2026-05-28T22:48:37Z,internal order has no matching processor settlement
+missing_in_database,high,ord_phantom_00900,,,PHP,0.00,399.56,,completed,399.56,processor_b,2026-05-27T11:43:48Z,processor processor_b settled PHP 399.56 with no matching internal order (reference ord_phantom_00900)
+missing_in_database,high,ord_phantom_00246,,,THB,0.00,395.13,,completed,395.13,processor_b,2026-05-30T23:25:45Z,processor processor_b settled THB 395.13 with no matching internal order (reference ord_phantom_00246)
+amount_mismatch,high,ord_000496,cust_1303,chef_256,PHP,471.28,865.05,completed,completed,393.77,internal+processor_b,2026-05-30T22:54:20Z,amount differs by PHP 393.77 (internal PHP 471.28 vs processor_b PHP 865.05)
+missing_in_database,high,ord_phantom_00563,,,PHP,0.00,387.20,,completed,387.20,processor_a,2026-05-31T12:10:16Z,processor processor_a settled PHP 387.20 with no matching internal order (reference ord_phantom_00563)
+missing_in_settlement,high,ord_000697,cust_1976,chef_067,PHP,375.92,0.00,completed,,375.92,internal,2026-05-28T18:41:28Z,internal order has no matching processor settlement
+missing_in_database,high,ord_phantom_00615,,,IDR,0.00,369.96,,completed,369.96,processor_b,2026-05-30T22:17:36Z,processor processor_b settled IDR 369.96 with no matching internal order (reference ord_phantom_00615)
+missing_in_database,high,ord_phantom_00735,,,THB,0.00,366.69,,completed,366.69,processor_a,2026-05-29T12:06:37Z,processor processor_a settled THB 366.69 with no matching internal order (reference ord_phantom_00735)
+missing_in_database,high,ord_phantom_00766,,,PHP,0.00,363.82,,completed,363.82,processor_b,2026-05-31T22:12:51Z,processor processor_b settled PHP 363.82 with no matching internal order (reference ord_phantom_00766)
+missing_in_database,high,ord_phantom_00411,,,THB,0.00,362.71,,completed,362.71,processor_a,2026-05-29T06:54:44Z,processor processor_a settled THB 362.71 with no matching internal order (reference ord_phantom_00411)
+missing_in_database,high,ord_phantom_00763,,,PHP,0.00,343.61,,completed,343.61,processor_a,2026-05-25T05:56:52Z,processor processor_a settled PHP 343.61 with no matching internal order (reference ord_phantom_00763)
+missing_in_settlement,high,ord_000001,cust_1301,chef_234,IDR,342.21,0.00,completed,,342.21,internal,2026-05-25T18:36:48Z,internal order has no matching processor settlement
+missing_in_database,high,ord_phantom_00412,,,PHP,0.00,336.99,,completed,336.99,processor_b,2026-05-25T18:39:16Z,processor processor_b settled PHP 336.99 with no matching internal order (reference ord_phantom_00412)
+missing_in_database,high,ord_phantom_00140,,,THB,0.00,335.66,,completed,335.66,processor_b,2026-05-31T01:47:32Z,processor processor_b settled THB 335.66 with no matching internal order (reference ord_phantom_00140)
+amount_mismatch,high,ord_000012,cust_1700,chef_266,PHP,187.81,-145.18,completed,completed,332.99,internal+processor_a,2026-05-26T17:27:07Z,amount differs by PHP 332.99 (internal PHP 187.81 vs processor_a PHP -145.18)
+missing_in_settlement,high,ord_000545,cust_0393,chef_134,IDR,329.10,0.00,completed,,329.10,internal,2026-05-28T13:07:45Z,internal order has no matching processor settlement
+missing_in_database,high,ord_phantom_00981,,,PHP,0.00,326.88,,completed,326.88,processor_b,2026-05-26T10:32:22Z,processor processor_b settled PHP 326.88 with no matching internal order (reference ord_phantom_00981)
+refund_not_applied,high,ord_000749,cust_1987,chef_100,IDR,322.29,322.29,completed,refunded,322.29,internal+processor_a,2026-05-28T19:16:38Z,processor refunded customer; internal record still shows completed
+missing_in_database,high,ord_phantom_00805,,,THB,0.00,309.07,,completed,309.07,processor_a,2026-05-28T22:10:15Z,processor processor_a settled THB 309.07 with no matching internal order (reference ord_phantom_00805)
+missing_in_database,high,ord_phantom_00220,,,PHP,0.00,301.06,,completed,301.06,processor_b,2026-05-27T20:25:08Z,processor processor_b settled PHP 301.06 with no matching internal order (reference ord_phantom_00220)
+missing_in_settlement,high,ord_000718,cust_1733,chef_011,PHP,287.75,0.00,completed,,287.75,internal,2026-05-30T20:01:37Z,internal order has no matching processor settlement
+missing_in_database,high,ord_phantom_00688,,,PHP,0.00,286.61,,completed,286.61,processor_a,2026-05-29T02:55:38Z,processor processor_a settled PHP 286.61 with no matching internal order (reference ord_phantom_00688)
+missing_in_settlement,high,ord_000467,cust_1786,chef_258,IDR,275.90,0.00,completed,,275.90,internal,2026-05-25T17:13:26Z,internal order has no matching processor settlement
+missing_in_settlement,high,ord_000760,cust_1163,chef_057,PHP,270.50,0.00,completed,,270.50,internal,2026-05-28T21:44:34Z,internal order has no matching processor settlement
+missing_in_settlement,high,ord_000490,cust_1442,chef_024,IDR,264.61,0.00,completed,,264.61,internal,2026-05-25T19:43:36Z,internal order has no matching processor settlement
+missing_in_settlement,high,ord_000434,cust_1698,chef_204,PHP,264.41,0.00,completed,,264.41,internal,2026-05-27T19:46:13Z,internal order has no matching processor settlement
+missing_in_settlement,high,ord_000057,cust_0280,chef_076,IDR,263.41,0.00,completed,,263.41,internal,2026-05-26T17:27:55Z,internal order has no matching processor settlement
+missing_in_settlement,high,ord_000798,cust_0962,chef_237,IDR,260.64,0.00,completed,,260.64,internal,2026-05-28T07:05:14Z,internal order has no matching processor settlement
+missing_in_settlement,high,ord_000198,cust_1044,chef_007,PHP,255.20,0.00,completed,,255.20,internal,2026-05-25T03:43:21Z,internal order has no matching processor settlement
+missing_in_settlement,high,ord_000083,cust_1665,chef_206,PHP,254.12,0.00,completed,,254.12,internal,2026-05-31T13:39:36Z,internal order has no matching processor settlement
+missing_in_settlement,high,ord_000674,cust_0386,chef_000,THB,243.58,0.00,completed,,243.58,internal,2026-05-31T09:28:03Z,internal order has no matching processor settlement
+missing_in_database,high,ord_phantom_00086,,,IDR,0.00,241.45,,completed,241.45,processor_b,2026-05-29T17:45:39Z,processor processor_b settled IDR 241.45 with no matching internal order (reference ord_phantom_00086)
+missing_in_settlement,high,ord_000736,cust_0102,chef_081,THB,239.73,0.00,completed,,239.73,internal,2026-05-28T06:22:51Z,internal order has no matching processor settlement
+missing_in_database,high,ord_phantom_00942,,,PHP,0.00,236.48,,completed,236.48,processor_b,2026-05-30T14:54:45Z,processor processor_b settled PHP 236.48 with no matching internal order (reference ord_phantom_00942)
+amount_mismatch,high,ord_000493,cust_1509,chef_024,THB,318.47,520.90,completed,completed,202.43,internal+processor_a,2026-05-27T05:05:58Z,amount differs by THB 202.43 (internal THB 318.47 vs processor_a THB 520.90)
+missing_in_settlement,high,ord_000379,cust_1169,chef_227,PHP,199.62,0.00,completed,,199.62,internal,2026-05-25T00:05:59Z,internal order has no matching processor settlement
+missing_in_settlement,high,ord_000827,cust_0650,chef_097,THB,198.45,0.00,completed,,198.45,internal,2026-05-26T08:45:11Z,internal order has no matching processor settlement
+missing_in_settlement,high,ord_000191,cust_0758,chef_071,IDR,196.56,0.00,completed,,196.56,internal,2026-05-29T18:11:55Z,internal order has no matching processor settlement
+missing_in_settlement,high,ord_000634,cust_0646,chef_270,PHP,192.12,0.00,completed,,192.12,internal,2026-05-29T09:16:25Z,internal order has no matching processor settlement
+missing_in_settlement,high,ord_000381,cust_1561,chef_195,IDR,188.22,0.00,completed,,188.22,internal,2026-05-31T12:26:43Z,internal order has no matching processor settlement
+missing_in_database,high,ord_phantom_00135,,,IDR,0.00,168.53,,completed,168.53,processor_a,2026-05-28T11:55:36Z,processor processor_a settled IDR 168.53 with no matching internal order (reference ord_phantom_00135)
+missing_in_database,high,ord_phantom_00074,,,IDR,0.00,166.48,,completed,166.48,processor_b,2026-05-26T04:07:09Z,processor processor_b settled IDR 166.48 with no matching internal order (reference ord_phantom_00074)
+missing_in_database,high,ord_phantom_00029,,,PHP,0.00,161.33,,completed,161.33,processor_b,2026-05-30T12:51:50Z,processor processor_b settled PHP 161.33 with no matching internal order (reference ord_phantom_00029)
+refund_not_applied,high,ord_000383,cust_0225,chef_147,IDR,159.73,159.73,completed,refunded,159.73,internal+processor_a,2026-05-30T12:44:56Z,processor refunded customer; internal record still shows completed
+missing_in_settlement,high,ord_000323,cust_1895,chef_105,IDR,157.42,0.00,completed,,157.42,internal,2026-05-29T08:42:41Z,internal order has no matching processor settlement
+missing_in_settlement,high,ord_000030,cust_0480,chef_248,IDR,153.09,0.00,completed,,153.09,internal,2026-05-30T03:21:56Z,internal order has no matching processor settlement
+missing_in_database,high,ord_phantom_00940,,,THB,0.00,144.89,,completed,144.89,processor_b,2026-05-30T13:57:15Z,processor processor_b settled THB 144.89 with no matching internal order (reference ord_phantom_00940)
+missing_in_settlement,high,ord_000275,cust_0123,chef_084,PHP,141.40,0.00,completed,,141.40,internal,2026-05-27T10:52:20Z,internal order has no matching processor settlement
+missing_in_database,high,ord_phantom_00156,,,PHP,0.00,140.74,,completed,140.74,processor_b,2026-05-31T15:30:21Z,processor processor_b settled PHP 140.74 with no matching internal order (reference ord_phantom_00156)
+refund_not_applied,high,ord_000533,cust_0805,chef_242,IDR,135.08,135.08,completed,refunded,135.08,internal+processor_b,2026-05-28T20:45:27Z,processor refunded customer; internal record still shows completed
+missing_in_settlement,high,ord_000711,cust_0563,chef_014,PHP,119.30,0.00,completed,,119.30,internal,2026-05-28T06:48:23Z,internal order has no matching processor settlement
+missing_in_settlement,high,ord_000788,cust_0042,chef_155,THB,115.42,0.00,completed,,115.42,internal,2026-05-31T13:55:24Z,internal order has no matching processor settlement
+missing_in_database,high,ord_phantom_00941,,,PHP,0.00,115.27,,completed,115.27,processor_b,2026-05-26T06:36:00Z,processor processor_b settled PHP 115.27 with no matching internal order (reference ord_phantom_00941)
+missing_in_settlement,high,ord_000375,cust_1292,chef_081,THB,111.78,0.00,completed,,111.78,internal,2026-05-25T08:25:51Z,internal order has no matching processor settlement
+missing_in_database,high,ord_phantom_00126,,,PHP,0.00,108.78,,completed,108.78,processor_a,2026-05-29T14:18:18Z,processor processor_a settled PHP 108.78 with no matching internal order (reference ord_phantom_00126)
+missing_in_database,high,ord_phantom_00413,,,THB,0.00,108.47,,completed,108.47,processor_a,2026-05-31T13:15:51Z,processor processor_a settled THB 108.47 with no matching internal order (reference ord_phantom_00413)
+missing_in_database,high,ord_phantom_00436,,,PHP,0.00,108.47,,completed,108.47,processor_b,2026-05-27T14:52:47Z,processor processor_b settled PHP 108.47 with no matching internal order (reference ord_phantom_00436)
+missing_in_database,medium,ord_phantom_00356,,,IDR,0.00,89.46,,completed,89.46,processor_a,2026-05-28T19:38:49Z,processor processor_a settled IDR 89.46 with no matching internal order (reference ord_phantom_00356)
+missing_in_settlement,medium,ord_000131,cust_1170,chef_063,IDR,82.75,0.00,completed,,82.75,internal,2026-05-25T17:38:22Z,internal order has no matching processor settlement
+refund_not_applied,medium,ord_000769,cust_1526,chef_238,THB,76.00,76.00,completed,refunded,76.00,internal+processor_b,2026-05-25T14:30:23Z,processor refunded customer; internal record still shows completed
+missing_in_settlement,medium,ord_000542,cust_0309,chef_190,THB,75.59,0.00,completed,,75.59,internal,2026-05-27T12:29:34Z,internal order has no matching processor settlement
+missing_in_settlement,medium,ord_000968,cust_0561,chef_173,THB,73.25,0.00,completed,,73.25,internal,2026-05-31T09:44:21Z,internal order has no matching processor settlement
+refund_not_applied,medium,ord_000347,cust_1881,chef_216,PHP,71.26,71.26,completed,refunded,71.26,internal+processor_a,2026-05-28T15:10:22Z,processor refunded customer; internal record still shows completed
+missing_in_database,medium,ord_phantom_00276,,,IDR,0.00,68.11,,completed,68.11,processor_b,2026-05-27T01:35:13Z,processor processor_b settled IDR 68.11 with no matching internal order (reference ord_phantom_00276)
+missing_in_database,medium,ord_phantom_00065,,,IDR,0.00,67.80,,completed,67.80,processor_b,2026-05-25T22:26:55Z,processor processor_b settled IDR 67.80 with no matching internal order (reference ord_phantom_00065)
+amount_mismatch,medium,ord_000964,cust_1572,chef_039,THB,137.46,202.80,completed,completed,65.34,internal+processor_a,2026-05-26T16:54:33Z,amount differs by THB 65.34 (internal THB 137.46 vs processor_a THB 202.80)
+missing_in_database,medium,ord_phantom_00003,,,IDR,0.00,58.35,,completed,58.35,processor_a,2026-05-25T07:45:52Z,processor processor_a settled IDR 58.35 with no matching internal order (reference ord_phantom_00003)
+missing_in_database,medium,ord_phantom_00182,,,PHP,0.00,46.74,,completed,46.74,processor_b,2026-05-27T13:50:02Z,processor processor_b settled PHP 46.74 with no matching internal order (reference ord_phantom_00182)
+missing_in_database,medium,ord_phantom_00612,,,PHP,0.00,45.76,,completed,45.76,processor_a,2026-05-30T14:35:00Z,processor processor_a settled PHP 45.76 with no matching internal order (reference ord_phantom_00612)
+missing_in_settlement,medium,ord_000944,cust_1400,chef_155,IDR,44.59,0.00,completed,,44.59,internal,2026-05-31T17:17:16Z,internal order has no matching processor settlement
+missing_in_settlement,medium,ord_000576,cust_0623,chef_053,IDR,41.90,0.00,completed,,41.90,internal,2026-05-29T20:31:22Z,internal order has no matching processor settlement
+missing_in_database,medium,ord_phantom_00440,,,IDR,0.00,29.47,,completed,29.47,processor_b,2026-05-31T20:27:02Z,processor processor_b settled IDR 29.47 with no matching internal order (reference ord_phantom_00440)
+missing_in_database,medium,ord_phantom_00706,,,IDR,0.00,25.05,,completed,25.05,processor_a,2026-05-31T01:21:06Z,processor processor_a settled IDR 25.05 with no matching internal order (reference ord_phantom_00706)
+amount_mismatch,medium,ord_000725,cust_0587,chef_022,PHP,288.06,266.73,completed,completed,21.33,internal+processor_b,2026-05-27T14:24:21Z,amount differs by PHP 21.33 (internal PHP 288.06 vs processor_b PHP 266.73)
+amount_mismatch,medium,ord_000231,cust_1716,chef_088,THB,453.25,464.63,completed,completed,11.38,internal+processor_a,2026-05-25T19:54:38Z,amount differs by THB 11.38 (internal THB 453.25 vs processor_a THB 464.63)
+missing_in_database,low,ord_phantom_00689,,,PHP,0.00,7.26,,completed,7.26,processor_b,2026-05-30T01:55:19Z,processor processor_b settled PHP 7.26 with no matching internal order (reference ord_phantom_00689)
+amount_mismatch,low,ord_000433,cust_0222,chef_285,PHP,285.44,281.11,completed,completed,4.33,internal+processor_a,2026-05-29T01:40:56Z,amount differs by PHP 4.33 (internal PHP 285.44 vs processor_a PHP 281.11)
+amount_mismatch,low,ord_000049,cust_1983,chef_110,PHP,468.17,463.89,completed,completed,4.28,internal+processor_a,2026-05-30T02:10:21Z,amount differs by PHP 4.28 (internal PHP 468.17 vs processor_a PHP 463.89)
+amount_mismatch,low,ord_000392,cust_1444,chef_132,PHP,266.30,270.38,completed,completed,4.08,internal+processor_b,2026-05-25T04:52:22Z,amount differs by PHP 4.08 (internal PHP 266.30 vs processor_b PHP 270.38)
+amount_mismatch,low,ord_000883,cust_1441,chef_077,IDR,245.22,241.54,completed,completed,3.68,internal+processor_a,2026-05-27T19:36:09Z,amount differs by IDR 3.68 (internal IDR 245.22 vs processor_a IDR 241.54)
+amount_mismatch,low,ord_000380,cust_0463,chef_221,THB,431.48,427.96,completed,completed,3.52,internal+processor_b,2026-05-26T09:31:21Z,amount differs by THB 3.52 (internal THB 431.48 vs processor_b THB 427.96)
+amount_mismatch,low,ord_000179,cust_0870,chef_087,PHP,183.78,181.36,completed,completed,2.42,internal+processor_a,2026-05-28T00:53:48Z,amount differs by PHP 2.42 (internal PHP 183.78 vs processor_a PHP 181.36)
+amount_mismatch,low,ord_000409,cust_0851,chef_067,PHP,173.92,176.11,completed,completed,2.19,internal+processor_a,2026-05-26T03:57:52Z,amount differs by PHP 2.19 (internal PHP 173.92 vs processor_a PHP 176.11)
+amount_mismatch,low,ord_000307,cust_0895,chef_131,PHP,117.44,115.37,completed,completed,2.07,internal+processor_a,2026-05-30T10:35:06Z,amount differs by PHP 2.07 (internal PHP 117.44 vs processor_a PHP 115.37)
+amount_mismatch,low,ord_000080,cust_0667,chef_170,PHP,125.69,127.62,completed,completed,1.93,internal+processor_b,2026-05-29T05:40:36Z,amount differs by PHP 1.93 (internal PHP 125.69 vs processor_b PHP 127.62)
+amount_mismatch,low,ord_000461,cust_1074,chef_255,PHP,195.83,194.03,completed,completed,1.80,internal+processor_a,2026-05-26T20:42:55Z,amount differs by PHP 1.80 (internal PHP 195.83 vs processor_a PHP 194.03)
+amount_mismatch,low,ord_000653,cust_0229,chef_043,PHP,19.68,21.27,completed,completed,1.59,internal+processor_a,2026-05-27T12:42:03Z,amount differs by PHP 1.59 (internal PHP 19.68 vs processor_a PHP 21.27)
+amount_mismatch,low,ord_000751,cust_1881,chef_275,PHP,475.51,474.13,completed,completed,1.38,internal+processor_b,2026-05-31T10:53:08Z,amount differs by PHP 1.38 (internal PHP 475.51 vs processor_b PHP 474.13)
