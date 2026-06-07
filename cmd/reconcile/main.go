@@ -80,18 +80,20 @@ func run(
 	opts := reconcile.Defaults()
 	opts.EnableFuzzyMatching = fuzzy
 	engine := reconcile.NewEngine(opts)
-	r := engine.Reconcile(ctx, internalTxns, map[domain.Source][]domain.Transaction{ //nolint:exhaustive // SourceInternal is not a processor
+	//nolint:exhaustive // SourceInternal is not a processor
+	processors := map[domain.Source][]domain.Transaction{
 		domain.SourceProcessorA: procATxns,
 		domain.SourceProcessorB: procBTxns,
-	})
+	}
+	r := engine.Reconcile(ctx, internalTxns, processors)
 
 	jsonPath := filepath.Join(outDir, "reconciliation.json")
 	csvPath := filepath.Join(outDir, "discrepancies.csv")
-	if err := report.WriteJSON(r, jsonPath); err != nil {
-		return fmt.Errorf("write json: %w", err)
+	if werr := report.WriteJSON(r, jsonPath); werr != nil {
+		return fmt.Errorf("write json: %w", werr)
 	}
-	if err := report.WriteCSV(r, csvPath); err != nil {
-		return fmt.Errorf("write csv: %w", err)
+	if werr := report.WriteCSV(r, csvPath); werr != nil {
+		return fmt.Errorf("write csv: %w", werr)
 	}
 
 	report.PrintSummary(os.Stdout, r)

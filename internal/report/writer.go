@@ -30,8 +30,8 @@ func WriteJSON(report domain.Report, path string) error {
 
 	enc := json.NewEncoder(f)
 	enc.SetIndent("", "  ")
-	if err := enc.Encode(report); err != nil {
-		return fmt.Errorf("encode json report: %w", err)
+	if encErr := enc.Encode(report); encErr != nil {
+		return fmt.Errorf("encode json report: %w", encErr)
 	}
 	return nil
 }
@@ -70,8 +70,8 @@ func WriteCSV(report domain.Report, path string) error {
 	defer f.Close()
 
 	w := csv.NewWriter(f)
-	if err := w.Write(csvHeader); err != nil {
-		return fmt.Errorf("write csv header: %w", err)
+	if werr := w.Write(csvHeader); werr != nil {
+		return fmt.Errorf("write csv header: %w", werr)
 	}
 	for _, d := range report.Discrepancies {
 		row := []string{
@@ -90,13 +90,13 @@ func WriteCSV(report domain.Report, path string) error {
 			d.OccurredAt.Format("2006-01-02T15:04:05Z07:00"),
 			d.Detail,
 		}
-		if err := w.Write(row); err != nil {
-			return fmt.Errorf("write csv row: %w", err)
+		if werr := w.Write(row); werr != nil {
+			return fmt.Errorf("write csv row: %w", werr)
 		}
 	}
 	w.Flush()
-	if err := w.Error(); err != nil {
-		return fmt.Errorf("flush csv: %w", err)
+	if ferr := w.Error(); ferr != nil {
+		return fmt.Errorf("flush csv: %w", ferr)
 	}
 	return nil
 }

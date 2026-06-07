@@ -81,9 +81,8 @@ func TestEngine_DetectsAllFiveDiscrepancyTypes(t *testing.T) {
 		processorTxn(domain.SourceProcessorA, "ord_phantom", 30000, domain.StatusCompleted),
 	}
 
-	r := reconcile.NewEngine(reconcile.Defaults()).Reconcile(context.Background(), internal, map[domain.Source][]domain.Transaction{
-		domain.SourceProcessorA: procA,
-	})
+	r := reconcile.NewEngine(reconcile.Defaults()).Reconcile(context.Background(), internal,
+		map[domain.Source][]domain.Transaction{domain.SourceProcessorA: procA})
 
 	assert.Equal(t, 1, r.MatchedCount, "only the clean ord_clean should be matched cleanly")
 	assert.Len(t, r.Discrepancies, 5, "five discrepancy types should be detected")

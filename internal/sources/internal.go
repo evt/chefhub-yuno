@@ -41,25 +41,25 @@ func (l *InternalLoader) Load(_ context.Context, path string) ([]domain.Transact
 	}
 
 	var raw []internalOrder
-	if err := json.Unmarshal(data, &raw); err != nil {
-		return nil, fmt.Errorf("parse internal orders %q: %w", path, err)
+	if uerr := json.Unmarshal(data, &raw); uerr != nil {
+		return nil, fmt.Errorf("parse internal orders %q: %w", path, uerr)
 	}
 
 	out := make([]domain.Transaction, 0, len(raw))
 	for i, r := range raw {
-		amount, err := domain.ParseMoney(fmt.Sprintf("%.2f", r.Amount))
-		if err != nil {
-			return nil, fmt.Errorf("internal orders row %d: %w", i, err)
+		amount, perr := domain.ParseMoney(fmt.Sprintf("%.2f", r.Amount))
+		if perr != nil {
+			return nil, fmt.Errorf("internal orders row %d: %w", i, perr)
 		}
 
-		ts, err := time.Parse(time.RFC3339, r.CreatedAt)
-		if err != nil {
-			return nil, fmt.Errorf("internal orders row %d: parse created_at %q: %w", i, r.CreatedAt, err)
+		ts, terr := time.Parse(time.RFC3339, r.CreatedAt)
+		if terr != nil {
+			return nil, fmt.Errorf("internal orders row %d: parse created_at %q: %w", i, r.CreatedAt, terr)
 		}
 
-		status, err := parseInternalStatus(r.Status)
-		if err != nil {
-			return nil, fmt.Errorf("internal orders row %d: %w", i, err)
+		status, serr := parseInternalStatus(r.Status)
+		if serr != nil {
+			return nil, fmt.Errorf("internal orders row %d: %w", i, serr)
 		}
 
 		out = append(out, domain.Transaction{
